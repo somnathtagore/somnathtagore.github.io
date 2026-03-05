@@ -8,7 +8,13 @@ middle_name:
 last_name: Tagore
 email: st3179@cumc.columbia.edu
 description: >
-We build generalizable, uncertainty-aware “world models” for tumor evolution and metastasis, models that (i) learn causal/functional links from genotype → regulatory state → phenotype, (ii) explicitly represent measurement noise and batch effects in real sequencing data, and (iii) transfer across cancers, tissues, and platforms. The scientific payoff is how somatic/germline variation rewires regulatory programs, how early genetic events bias invasive and metastatic routes, and how chromosomal instability (CIN) and tumor-intrinsic programs enable organ-specific colonization. The translational payoff is cheaper, scalable profiling and cleaner data, enabling robust biomarkers and therapeutic hypotheses.
+We build generalizable, uncertainty-aware world models for tumor evolution and metastasis—models that
+  (i) learn causal/functional links from genotype to regulatory state to phenotype,
+  (ii) explicitly represent measurement noise and batch effects in real sequencing data,
+  and (iii) transfer across cancers, tissues, and platforms.
+  Scientific payoff: how somatic/germline variation rewires regulatory programs, how early genetic events bias invasive
+  and metastatic routes, and how chromosomal instability (CIN) and tumor-intrinsic programs enable organ-specific colonization.
+  Translational payoff: cheaper, scalable profiling and cleaner data, enabling robust biomarkers and therapeutic hypotheses.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
