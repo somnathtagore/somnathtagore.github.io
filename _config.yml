@@ -2,13 +2,12 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-email: you@example.com
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+title: Somnath Tagore Group
+first_name: Somnath
+middle_name: 
+last_name: Tagore
+email: st3179@cumc.columbia.edu
+description: We build generalizable, uncertainty-aware “world models” for tumor evolution and metastasis, models that (i) learn causal/functional links from genotype → regulatory state → phenotype, (ii) explicitly represent measurement noise and batch effects in real sequencing data, and (iii) transfer across cancers, tissues, and platforms. The scientific payoff is how somatic/germline variation rewires regulatory programs, how early genetic events bias invasive and metastatic routes, and how chromosomal instability (CIN) and tumor-intrinsic programs enable organ-specific colonization. The translational payoff is cheaper, scalable profiling and cleaner data, enabling robust biomarkers and therapeutic hypotheses.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -18,9 +17,9 @@ keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://al-folio.github.io # the base hostname & protocol for your site
-baseurl: # the subpath of your site, e.g. /blog/
-last_updated: false # set to true if you want to display last updated in the footer
+url: "https://somnathtagore.github.io" # the base hostname & protocol for your site
+baseurl: ""
+last_updated: March 6, 2026 # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
