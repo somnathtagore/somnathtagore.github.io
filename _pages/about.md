@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Assistant Professor of Medical Sciences (in Medicine) at <a href='#'>Columbia University</a>.
+subtitle: I am Somnath Tagore, Assistant Professor of Medical Sciences (in Medicine) at <a href='#'>Columbia University</a>.
 
 profile:
   align: right
