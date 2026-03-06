@@ -1,8 +1,6 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
-inline: true
-related_posts: false
+date: 2026-02-11 15:59:00-0400
 ---
 
-A simple inline announcement.
+Our paper on "Pan-cancer inference and validation of hypermorphic, hypomorphic and neomorphic mutations" is out in *Nature Medicine*.
