@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>a post with disqus comments | I build World Models. Tumors break them.</title>
+    <title>research | I build World Models. Tumors break them.</title>
     <meta name="author" content="Somnath  Tagore">
-    <meta name="description" content="an example of a blog post with disqus comments">
+    <meta name="description" content="Current research directions">
 
 
     <!-- Bootstrap & MDB -->
@@ -30,7 +30,7 @@
     <!-- Styles -->
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://somnathtagore.github.io/blog/2015/disqus-comments/">
+    <link rel="canonical" href="https://somnathtagore.github.io/research/">
     
     <!-- Dark Mode -->
     
@@ -69,8 +69,8 @@
               </li>
               
               <!-- Blog -->
-              <li class="nav-item active">
-                <a class="nav-link" href="/blog/">blog<span class="sr-only">(current)</span></a>
+              <li class="nav-item ">
+                <a class="nav-link" href="/blog/">blog</a>
               </li>
 
               <!-- Other pages -->
@@ -80,8 +80,8 @@
               <li class="nav-item ">
                 <a class="nav-link" href="/projects/">projects</a>
               </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/research/">research</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="/research/">research<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/people/">People</a>
@@ -127,43 +127,29 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <!-- _layouts/post.html -->
+      <!-- page.html -->
+        <div class="post">
 
-<div class="post">
+          <header class="post-header">
+            <h1 class="post-title">research</h1>
+            <p class="post-description">Current research directions</p>
+          </header>
 
-  <header class="post-header">
-    <h1 class="post-title">a post with disqus comments</h1>
-    <p class="post-meta">October 20, 2015</p>
-    <p class="post-tags">
-      <a href="/blog/2015"> <i class="fas fa-calendar fa-sm"></i> 2015 </a>
-        ·  
-        <a href="/blog/category/sample-posts">
-          <i class="fas fa-tag fa-sm"></i> sample-posts</a>  
-          <a href="/blog/category/external-services">
-          <i class="fas fa-tag fa-sm"></i> external-services</a>  
-          
+          <article>
+            <h2 id="current-research-areas">Current Research Areas</h2>
 
-    </p>
-  </header>
+<h3 id="1-uncertainty-aware-multimodal-integration-and-robust-inference-under-biological-and-technical-noise">1. Uncertainty-Aware Multimodal Integration and Robust Inference under Biological and Technical Noise</h3>
+<p>The first theme establishes data realism as a foundational principle of computational oncology by explicitly modeling measurement noise, modality mismatch, and biological heterogeneity as intrinsic components of inference rather than as preprocessing nuisances. Recognizing that tumor sequencing data—particularly low-pass/deep-scale genomic, single-cell, and spatial assays—are inherently noisy and incomplete, this theme develops uncertainty-aware integration frameworks that treat observed signals as imperfect projections of latent clonal and regulatory states. By propagating uncertainty through hierarchical and ensemble-based models and by incorporating robustness objectives that enforce stability under controlled perturbations, this approach yields calibrated, interpretable outputs even in low-coverage or heterogeneous datasets. This paradigm enables the use of cost-effective profiling strategies while maintaining statistical rigor and reproducibility. Together, these methods create a reliable computational substrate that supports mechanistic variant interpretation and metastasis modeling, ensuring that biological conclusions remain robust under realistic experimental constraints.</p>
 
-  <article class="post-content">
-    <p>This post shows how to add DISQUS comments.</p>
+<h3 id="2-early-events-cin-and-state-transitions-that-prime-metastasis">2. Early events, CIN, and state transitions that prime metastasis</h3>
+<p>The second theme focuses on understanding how early genetic alterations and chromosomal instability shape tumor evolutionary trajectories and confer metastatic competence. Building on findings that metastasis-prone clones exhibit early hallmarks such as elevated chromosomal instability and neural-like transcriptional reprogramming, this theme formalizes metastatic “priming” as a latent evolutionary state emerging from interactions between clonal copy-number architecture, regulatory program dynamics, and spatial niche adaptation. Rather than treating metastasis as a late binary outcome, the framework models tumor progression as a series of state transitions under selective pressures, enabling identification of intermediate configurations that increase the probability of successful colonization in specific organs, particularly the brain. By distinguishing shared metastatic primitives from organ-specific adaptations, this work aims to define portable versus context-dependent mechanisms of organotropism. Ultimately, this theme establishes a predictive, mechanistically grounded model of how early genomic events bias invasive potential and metastatic trajectory across tumor types.</p>
 
-  </article><div id="disqus_thread" style="max-width: 800px; margin: 0 auto;">
-    <script type="text/javascript">
-        var disqus_shortname  = 'al-folio';
-        var disqus_identifier = '/blog/2015/disqus-comments';
-        var disqus_title      = "a post with disqus comments";
-        (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript" rel="external nofollow noopener" target="_blank">comments powered by Disqus.</a>
-</noscript>
-</div>
-</div>
+<h3 id="3-functional-interpretation-of-variants-as-context-dependent-perturbations">3. Functional interpretation of variants as context-dependent perturbations</h3>
+<p>The third theme of my research program reconceptualizes genetic variants not as static entities to be labeled, but as context-dependent perturbations that alter the latent regulatory and cellular state of a tumor ecosystem. Rather than relying on predefined regulatory inference frameworks, this approach treats each variant as an operator that transforms a multiscale latent state comprising clonal genomic configuration, transcriptional programs, chromatin accessibility, and spatial niche context. Within a joint-embedding and energy-based modeling framework, the objective is to learn how specific mutations reshape these latent states in a manner that depends on co-occurring genomic events and environmental constraints. This “world model” view enables prediction of regulatory rewiring, pathway reconfiguration, and phenotypic shifts as emergent consequences of state transitions, rather than as outputs of fixed network definitions. By combining multimodal representation learning, graph-based modeling of biological interactions, and uncertainty-aware inference, this pillar seeks to build a generalizable system for mapping variants to mechanistic consequences across tumor types. The long-term goal is to establish a transferable, context-sensitive framework for functional variant interpretation that operates independently of any single regulatory inference engine and that scales to diverse biological settings.</p>
+
+          </article>
+
+        </div>
 
     </div>
 
