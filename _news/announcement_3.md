@@ -1,8 +1,6 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
-inline: true
-related_posts: false
+date: 2025-02-27
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Our paper on "Single-cell and spatial genomic landscape of non-small cell lung cancer brain metastases" is out in *Nature Medicine*.
