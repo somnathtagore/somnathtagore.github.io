@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Nature Genetics paper on PDAC
 date: 2025-10-27
 ---
 
