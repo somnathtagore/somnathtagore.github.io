@@ -6,17 +6,22 @@ permalink: /blog/
 
 <h1>Research Blog</h1>
 
-{% assign keep_titles = "Welcome to my research blog|Chromosomal instability and neural-like programs in NSCLC brain metastasis" | split: "|" %}
-
 {% for post in site.posts %}
-  {% if keep_titles contains post.title %}
-    <div class="post-item">
-      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-      {% if post.description %}
-        <p>{{ post.description }}</p>
-      {% endif %}
-      <p><small>{{ post.date | date: "%B %-d, %Y" }}</small></p>
-    </div>
-    <hr>
-  {% endif %}
+  <div class="post-item">
+
+    <h2>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </h2>
+
+    {% if post.description %}
+      <p>{{ post.description }}</p>
+    {% endif %}
+
+    <p style="color:#666;">
+      {{ post.date | date: "%B %-d, %Y" }}
+    </p>
+
+  </div>
+
+  <hr>
 {% endfor %}
