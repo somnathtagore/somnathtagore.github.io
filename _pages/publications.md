@@ -8,6 +8,9 @@ nav: true
 nav_order: 1
 ---
 <!-- _pages/publications.md -->
+
+Peer-reviewed articles and selected preprints are listed in reverse chronological order. For the complete record, including abstracts and conference contributions, see my [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=uj3qcBkAAAAJ&view_op=list_works&sortby=pubdate).
+
 <div class="publications">
 
 {%- for y in page.years %}
